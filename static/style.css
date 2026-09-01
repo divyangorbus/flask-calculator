@@ -1,6 +1,6 @@
 :root {
-  --bg: #eef2f6;
-  --bg-glow: #ffffff;
+  --bg: #b71c1c;
+  --bg-glow: #e53935;
   --panel: #ffffff;
   --key: #e8eef4;
   --key-hover: #dce5ee;
@@ -17,8 +17,8 @@
 }
 
 html[data-theme="dark"] {
-  --bg: #0c2348;
-  --bg-glow: #1a4a8a;
+  --bg: #7f0000;
+  --bg-glow: #c62828;
   --panel: #163a6b;
   --key: #1e4f8c;
   --key-hover: #2762ab;
@@ -58,6 +58,17 @@ header {
   justify-content: space-between;
   gap: 12px;
   margin-bottom: 16px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo {
+  flex-shrink: 0;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
 }
 
 .eyebrow {
